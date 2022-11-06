@@ -39,7 +39,7 @@ export default function XSS(){
             </div>
             <h3>Example:</h3>
             <div>
-                To emulate xss try to input {"<img src onError=\"alert(document.cookie)\">"}
+                To emulate xss try to input {"<img src onError=\"alert(document.domain)\">"}
             </div>
         </div>
     );
